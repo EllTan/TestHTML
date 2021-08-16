@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get('/', response_class=HTMLResponse)
 async def handler():
-    return {
+    return 
         """
         <!DOCTYPE html>
         <html lang="ru">
@@ -80,4 +80,4 @@ async def handler():
   </body>
 </html>
         """
-    }
+    
