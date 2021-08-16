@@ -30,7 +30,7 @@ async def read_items():
             <h3> Step 12. In "Automatic deploys" press "Enable automatic deploys" <h3>
             <h3> Step 13. In "Manual deploy", select the necessary branch and click Deploy Branch <h3>
             <h3> Step 14. Watch the build results in the Activity tab <h3>
-            <h3. Step 15. Click Open app. Share the link. Enjoy :-) <h3>
+            <h3> Step 15. Click Open app. Share the link. Enjoy :-) <h3>
 
 
         </body>
