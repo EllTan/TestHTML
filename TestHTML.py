@@ -1,8 +1,5 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
-import insta.svg
-import vk.svg
-
 
 app = FastAPI()
 
@@ -19,4 +16,3 @@ async def read_items():
         </body>
     </html>
     """
-    
