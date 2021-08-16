@@ -10,17 +10,11 @@ app = FastAPI()
 @app.get('/', response_class=HTMLResponse)
 async def read_items():
     return  """
-        <!DOCTYPE html>
-        <html lang="ru">
+    <html>
         <head>
-            <meta charset="UTF-8" />            
-            <title>Дмитрий Жарков - разработчик</title>            
+            <title>Some HTML in here</title>
         </head>
         <body>
-        <header class="hero">
-      <div class="container">
-        <div class="hero-header">          
-          <div class="social-links">            
             <a
               href="https://www.instagram.com/angelina_kalinovskaya_/"
               target="_blank"
@@ -30,19 +24,6 @@ async def read_items():
             <a href="https://vk.com/angel.kalina" target="_blank" class="social-link"
               ><img src="social/vk.svg" alt="vk"
             /></a>
-          </div>
-          <!-- /.social-links -->
-        </div>
-        <!-- /.hero-header -->
-        <!-- /.hero-text -->
-        <div class="hero-avatar"></div>
-          <!-- /.hero-avatar -->
-        </div>
-        <!-- /.hero-content -->
-      </div>
-      <!-- /.container -->
-    </header>   
-  </body>
-</html>
-        """
-    
+        </body>
+    </html>
+    """
