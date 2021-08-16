@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 
-@app.get("/items/", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 async def read_items():
     return """
     <html>
