@@ -8,7 +8,7 @@ app = FastAPI()
 
 
 @app.get('/', response_class=HTMLResponse)
-async def handler():
+async def read_items():
     return 
         """
     <html>
