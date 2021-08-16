@@ -11,11 +11,10 @@ async def read_items():
     return  """
     <html>
         <head>
-            <title>Some HTML in here</title>
+            <title>Gide GitHub-Heroku</title>
         </head>
         <body>
-            <h1>launching a project on the Internet<h1>
-            <br>
+            <h1>Launching a project on the Internet<h1>            
             <h3> Step 1. Create a repository on GitHub <h3>
             <h3> Step 2. Clone the repository to the computer. "git clone" command <h3>
             <h3> Step 3. create a .py file with the name of your project <h3>
